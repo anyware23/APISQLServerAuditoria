@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APISQLServerAuditoria", "APISQLServerAuditoria\APISQLServerAuditoria.csproj", "{D567E9AE-A063-45AF-B46E-02895EB7EF78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL SQL", "DLL SQL", "{FF6FAFD8-3DC1-4008-A25E-DB216B6EF75A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLLSQL", "DLLSQL\DLLSQL.csproj", "{ABCCBE34-67D1-435A-9682-99E678016276}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D567E9AE-A063-45AF-B46E-02895EB7EF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D567E9AE-A063-45AF-B46E-02895EB7EF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D567E9AE-A063-45AF-B46E-02895EB7EF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D567E9AE-A063-45AF-B46E-02895EB7EF78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCCBE34-67D1-435A-9682-99E678016276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCCBE34-67D1-435A-9682-99E678016276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCCBE34-67D1-435A-9682-99E678016276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCCBE34-67D1-435A-9682-99E678016276}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABCCBE34-67D1-435A-9682-99E678016276} = {FF6FAFD8-3DC1-4008-A25E-DB216B6EF75A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED054774-5059-41E1-B2F3-78CED1524712}
+	EndGlobalSection
+EndGlobal
